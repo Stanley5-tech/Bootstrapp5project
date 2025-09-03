@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    content:'' ;
+    height: 72px;
+}
+.text-coral{
+    color: #FF7F50;
+}
+.card{height: 100%;}
+#instructors img{
+    width: 130px;
+    background-color: rgb(190, 190, 190);
+}
+/* Breakpoint for medium*/
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+    }
+}
