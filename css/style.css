@@ -16,4 +16,21 @@ body::before{
     .news-input{
         width:50%;
     }
+
+}
+/* Default brand size (desktop) */
+.navbar .navbar-brand {
+    font-size: 1rem;
+}
+
+/* ---------------------------------------------- */
+/* ❤️ FIX FOR HAMBURGER NOT SHOWING ON MOBILE     */
+/* ---------------------------------------------- */
+@media (max-width: 576px) {
+    .navbar .navbar-brand {
+        font-size: 0.75rem;       /* Smaller text */
+        max-width: 120px;         /* Prevents pushing toggler away */
+        line-height: 1.1;
+        white-space: normal;      /* Allows two-line wrap */
+    }
 }
